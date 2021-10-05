@@ -1,0 +1,25 @@
+<html>
+    <head><title>Student Form</title></head>
+    <body>
+        <form action="formStudent.php" method="post">
+            <br>
+            Name: <input type="text" size="20" maxlength="20" name="name">
+            <br>
+            Class: <input type="text" size="20" maxlength="20" name="class">
+            <br>
+            University: <input type="text" size="20" maxlength="20" name="university">
+            <br>
+            Hobby:<br>
+            <input type="checkbox" id="vehicle1" name="vehicle[]" value="Car">
+            <label for="vehicle1"> Car</label><br>
+            <input type="checkbox" id="vehicle2" name="vehicle[]" value="Game">
+            <label for="vehicle2"> Game</label><br>
+            <input type="checkbox" id="vehicle3" name="vehicle[]" value="Korea Drama">
+            <label for="vehicle3"> Korea Drama</label><br>
+            Other:<input type="text" size="20" maxlength="20" name="vehicle[]" value="">
+            <br><br/>
+            <input type="submit" value="Click to Submit">
+            <input type="reset" value="Erase and restart">
+        </form>
+    </body>
+</html>
